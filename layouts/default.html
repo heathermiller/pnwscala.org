@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pacific Northwest Scala Conference: <%= @item[:title] %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+			.jumbotron .lead {
+			  font-size: 22px;
+			  padding-left: 80px;
+			  padding-right: 80px;
+			  text-align: center;
+			}
+      .jumbotron .date {
+        font-size: 22px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+			<div class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<a class="brand" href="/">PNWScala</a>
+					<ul class="nav">
+						<li <% if @item[:section] == "home"%>class="active"<%end%>><a href="/">Home</a></li>
+						<li <% if @item[:section] == "cfp"%>class="active"<%end%>><a href="/cfp/">Submit a Proposal</a></li>
+						<li <% if @item[:section] == "sponsors"%>class="active"<%end%>><a href="/sponsors/">Sponsors</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<%= yield %>
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; 2013 PNWScala</p>
+      </div>
+
+		</div>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-43440602-1', 'pnwscala.org');
+			ga('send', 'pageview');
+			
+		</script>
+
+  </body>
+</html>
