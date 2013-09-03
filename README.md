@@ -1,3 +1,9 @@
-# PNWScala Website
+pnwscala.org
+========
 
-This site is build using the [nanoc](http://nanoc.ws/), a static site generator.
+Pacific Northwest Scala Site
+
+### Notes
+
+* Use Compass to generate the css from the scss.
+
