@@ -96,7 +96,11 @@ h2 {
   span { font-weight: bold; font-size: 1.25em; }
 }
 
-.scheduleContents { 
+.scheduleContents {
+  background-color: $infoBoxBg; 
+	padding: 4em;
+
+	p { font: normal 18px/30px $openSansFont; }
 
   table { background-color: #eee; }
 
@@ -146,7 +150,7 @@ h2 {
 }
 
 #map_canvas {
-  display: block;
+  display: blocktable;
   height: 400px;
   @include max-screen(768px)  { height: 250px; }
   @include max-screen(480px)  { height: 150px; }

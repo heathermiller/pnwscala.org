@@ -146,11 +146,20 @@ h2 {
   font-size: 1.25em;
 }
 
-/* line 101, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
+.scheduleContents {
+  background-color: #f9f9f3;
+  padding: 4em;
+}
+/* line 103, ../sass/main.scss */
+.scheduleContents p {
+  font: normal 18px/30px "Open Sans", sans-serif;
+}
+/* line 105, ../sass/main.scss */
 .scheduleContents table {
   background-color: #eee;
 }
-/* line 103, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 .scheduleContents th {
   text-align: center;
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZjBmMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QzZDNkMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -160,17 +169,17 @@ h2 {
   background: -o-linear-gradient(#f0f0f3, #d3d3d3);
   background: linear-gradient(#f0f0f3, #d3d3d3);
 }
-/* line 108, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 .scheduleContents table, .scheduleContents th, .scheduleContents td {
   border-width: 0;
   background-color: #f9f9f3;
 }
-/* line 110, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 .scheduleContents td {
   height: 10em;
   width: 140px;
 }
-/* line 112, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 .scheduleContents td a.SessionSummary {
   display: block;
   line-height: 1.5em;
@@ -178,22 +187,22 @@ h2 {
   color: #46b;
   margin-bottom: 5px;
 }
-/* line 117, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 .scheduleContents td a.SpeakerBio {
   color: black;
   text-decoration: none;
 }
-/* line 121, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 .scheduleContents td a.SpeakerBio:hover {
   text-decoration: underline;
 }
-/* line 124, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .scheduleContents td a.tweet {
   display: inline;
   line-height: 20px;
 }
 
-/* line 131, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .tooltip-inner {
   font-size: 1.1em;
   padding: 20px 40px;
@@ -203,87 +212,87 @@ h2 {
   line-height: 1.5em;
 }
 @media screen and (max-width: 768px) {
-  /* line 131, ../sass/main.scss */
+  /* line 135, ../sass/main.scss */
   .tooltip-inner {
     font-size: 1em;
     padding: 10px 20px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 131, ../sass/main.scss */
+  /* line 135, ../sass/main.scss */
   .tooltip-inner {
     font-size: .9em;
     padding: 2px 5px;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 131, ../sass/main.scss */
+  /* line 135, ../sass/main.scss */
   .tooltip-inner {
     font-size: .8em;
     max-width: 300px;
   }
 }
 
-/* line 143, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .tooltip.in {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 148, ../sass/main.scss */
+/* line 152, ../sass/main.scss */
 #map_canvas {
-  display: block;
+  display: blocktable;
   height: 400px;
 }
 @media screen and (max-width: 768px) {
-  /* line 148, ../sass/main.scss */
+  /* line 152, ../sass/main.scss */
   #map_canvas {
     height: 250px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 148, ../sass/main.scss */
+  /* line 152, ../sass/main.scss */
   #map_canvas {
     height: 150px;
   }
 }
 
-/* line 156, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 .directionsToEvent {
   height: 300px;
 }
 
-/* line 161, ../sass/main.scss */
+/* line 165, ../sass/main.scss */
 .sponsors td {
   text-align: center;
 }
 
-/* line 165, ../sass/main.scss */
+/* line 169, ../sass/main.scss */
 .fullsize td {
   font: normal 18px/30px "Open Sans", sans-serif;
   padding: 2em;
 }
 
-/* line 168, ../sass/main.scss */
+/* line 172, ../sass/main.scss */
 .footer {
   padding: 80px 10% 100px 10%;
   background: #203239;
   text-align: center;
   font-size: 1.2em;
 }
-/* line 174, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 .footer .contactInfo {
   font-weight: 600;
   color: white;
   margin-bottom: 40px;
 }
-/* line 175, ../sass/main.scss */
+/* line 179, ../sass/main.scss */
 .footer .siteInfo {
   font-weight: normal;
   color: #dddddd;
   margin-bottom: 30px;
 }
-/* line 176, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .footer .siteCredits {
   font-weight: normal;
   color: #668;
